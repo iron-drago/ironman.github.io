@@ -1,0 +1,453 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #495057;
+
+  }
+  
+  .bodyus{
+    background: url(event-planning3-edited.jpg) no-repeat;
+
+  }
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+  }
+  nav {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #495057;
+}
+
+header {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+.package-section{
+  justify-content: space-around;
+}
+section {
+  display: flex;
+  
+  flex-wrap: wrap;
+}
+section h2{
+  font-weight: 900;
+}
+.contact-p{
+  font-weight: 900;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.h2-contact{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.package-card {
+  max-width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.bronze {
+  background-color: #cd7f32;
+  color: #ffffff;
+}
+
+.silver {
+  background-color: #c0c0c0; 
+  color: #000000;
+}
+
+.gold {
+  background-color: #ffd700;
+  color: #000000;
+}
+.our-packages-h1{
+  color: black;
+}
+
+h2 {
+  color: #343a40;
+}
+.events h2{
+  color: white;
+}
+.events{
+  background-color: #343a40;
+  color: white;
+  max-width: 300px;
+}
+.Other{
+  background-color: blue;
+  color: white;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+  nav h1 {
+    color: black;
+    margin: 0;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    margin: 0 15px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+
+  nav a:hover {
+    color: #007bff;
+  }
+
+
+.hero{
+  background-color: rgba(255, 255, 255, 0.9);
+}
+  .about {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.bodyhm {
+  background: url(ibrahim-boran-m8YjB0noWiY-unsplash.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  margin: 0; 
+}
+
+
+#eventlocation{
+  margin-top: 10px;
+}
+
+  header {
+    background-color: #343a40;
+    color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  .label-for-service{
+    margin-top: 20px;
+  }
+  .booksilver{
+    background-color: lightblue;
+    border: 1px black solid;
+    display: inline;
+    padding: 10px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-bottom : 100px;
+    color: #000000;
+  }
+  .booking{
+    text-align: center;
+  }
+
+  .booking p {
+    font-weight: bold;
+  }
+  .booking a {
+    text-decoration: none;
+    color: #c0c0c0;
+  }
+  .booking a:hover{
+    color: #007bff;
+  }
+  .partytime-nav{
+    text-decoration: none;
+    color: #000000;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  section h2 {
+    text-align: center;
+  }
+  section a {
+    text-align: center;
+  }
+
+  section {
+    max-height: 1200px;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 0.5px black solid;
+  }
+  section p {
+    font-size: 25px;
+  }
+  h1{
+    color: white;
+  } 
+  h2 {
+    color: #343a40;
+  }
+  .packages-title{
+    margin-left: 20px;
+  }
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #343a40;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  .footer-p{
+    font-size: larger;
+  }
+
+  .footer-p a{
+    color: burlywood;
+
+  }
+  .packages-card{
+    border: #252525 1px solid;
+    background-color: #ffffff;
+    padding: 7px;
+  }
+  .gold-contact{
+    background-color: #ffffff;
+    margin-right: 915px;
+    padding: 7px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  .cta-button:hover {
+    background-color: grey;
+  }
+  .promangamer69{
+    text-decoration: none;
+  }
+  .promangamer69:hover{
+    text-decoration: none;
+    color: #007bff;
+  }
+  footer {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #495057;
+}
+header {
+    background-color: #ffffff;
+    color: black;
+    padding: 1em;
+    text-align: center;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+form {
+    padding: 3em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#confirmationText {
+  margin-top: 20px;
+}
+.Custom{
+  background-color: burlywood;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  padding: 0.375rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+.card-silver {
+    background-color: rgb(83, 81, 80);
+    margin: 1em;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    color: white;
+    max-height: 400px;
+    margin-left: 80px ;
+}
+.card-gold {
+    background-color: #ffd700;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    color: black;
+}
+.icon-book{
+  background-color: burlywood ;
+  padding: 7px;
+  border-radius: 5px;
+}
+.icon-home{
+  color: black;
+  background-color: burlywood ;
+  padding: 7px;
+  border-radius: 5px;
+}
+.icon-services{
+  background-color: burlywood ;
+  padding: 7px;
+  border-radius: 5px;
+}
+.icon-contact{
+  background-color: burlywood ;
+  border-radius: 5px;
+  padding: 7px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2em;
+}
+.icon-about{
+  background-color: burlywood ;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+
+
+
+.card-bronze {
+    background-color: rgb(205, 127, 50);
+    margin: 1em;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    color: white;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+}
+
+
+input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.back{
+    padding: 10px;
+    
+    justify-self: center;
+    justify-items: auto;
+    text-align: center;
+}

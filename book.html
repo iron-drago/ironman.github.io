@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="bookjs.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Party Time</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a class="partytime-nav" href="index.html"><h1>Party Time</h1></a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="book.html"  class="icon-book">Book Event</a></li>
+      </ul>
+    </nav>
+    
+  </header>
+<div class="booking">
+  <h2>Book Your Event Here ! </h2>
+  <p>Have Problems While Booking Your Event ? <br> <a href="contact.html">Contact Us</a></p>
+    </div>
+  <section class="contact">
+      <label for="eventName">Event Name :</label>
+      <input type="text" id="eventName" required>
+      <br>
+      
+      <label for="packageDropdown">Choose a package:</label>
+      <select id="packageDropdown" name="role" class="form-control" required="">
+          <option disabled="" selected="" value="">Select package</option>
+          <option value="gold">Gold</option>
+          <option value="silver">Silver</option>
+          <option value="bronze">Bronze</option>
+          <option value="custom">Custom</option>
+      </select>
+      <br>
+    <br>
+    <br>
+                  <label for="eventDropdown">Choose an event:</label>
+                  <select id="eventDropdown" name="role" class="form-control" required="">
+                      <option disabled="" selected="" value="">Select an event</option>
+                      <option value="student">Themed events</option>
+                      <option value="job">Special celebrations</option>
+                      <option value="learner">Marquee parties</option>
+                      <option value="preferNo">Entertainment</option>
+                  </select>
+                  <br>
+               <br> 
+           <br>
+              
+      <label for="eventLocation">Event Location :</label>
+            <input type="text" id="eventlocation" required>
+    
+      <label class="label-for-service" for="dropdown">Choose a service:</label>
+<select id="dropdown" name="role" class="form-control" required="">
+    <option disabled="" selected="" value="">Select a service</option>
+    <option value="student">fundraisers</option>
+    <option value="job">bespoke catering</option>
+    <option value="learner">themes and props</option>
+    <option value="preferNo">invitations and printworks</option>
+    <option value="other">sound and lighting</option>
+</select>
+<br>
+<br>
+<br>
+
+            <label for="eventDate">Event Date :</label>
+            <input type="date" id="eventDate" required>
+      
+            <button id="sendButton" onclick="sendMessage()">Confirm Plan</button>
+  <p id="confirmationText"></p>
+
+      </section>
+    
+</body>
+</html>

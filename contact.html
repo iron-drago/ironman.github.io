@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Party Time</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="bookjs.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <a class="partytime-nav" href="index.html"><h1>Party Time</h1></a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="icon-contact">Contact</a></li>
+        <li><a href="book.html">Book Event</a></li>
+      </ul>
+    </nav>
+    
+  </header> 
+  <h2 class="h2-contact">Contact Us</h2>
+  <p class="contact-p">Have questions or want to discuss your upcoming event? Reach out to us!</p>
+  <section class="section-contact">
+        <label for="name">Name : </label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email : </label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone : </label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
+        
+        <label for="message">Custom Package (IF NEEDED) : </label>
+        <input type="text" id="message" name="message">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button onclick="reloadPage()" type="submit">Submit</button>
+  </section>
+  
+</body>
+</html>
